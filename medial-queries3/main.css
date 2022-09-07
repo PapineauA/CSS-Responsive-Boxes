@@ -64,7 +64,7 @@ div.h {
   flex: 1 1 100%;
 }
 
-/*@media (min-width: 600px) {
+@media (min-width: 600px) {
 
   .b, .c, .d, .e, .f, .g {
     flex: 1 1 25%;
@@ -76,6 +76,4 @@ div.h {
     min-height: 220px;
     max-width: 15%;
   }
-}*/
-
-/* TEST */
+}
