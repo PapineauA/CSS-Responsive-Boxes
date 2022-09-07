@@ -1,3 +1,81 @@
 body {
-  background: peachpuff;
+  background: snow;
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  font-size: 32px;
 }
+
+.container {
+  display: flex;
+  padding: 2rem;
+  flex-grow: 1;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 0.52em;
+  justify-content: space-between;
+}
+
+div.a,
+div.b,
+div.c,
+div.d,
+div.e,
+div.f,
+div.g,
+div.h {
+  background-color: rgb(168, 167, 167);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid black;
+  border-radius: 0.3em;
+}
+
+.a {
+  flex: 1 1 100%;
+}
+
+.a,
+.b,
+.c,
+.d,
+.e,
+.f,
+.g {
+  min-height: 100px;
+}
+
+.b,
+.c,
+.d {
+  flex: 1 1 30%;
+}
+
+.e,
+.f,
+.g {
+  flex: 1 1 30%;
+}
+
+.h {
+  min-height: 350px;
+  flex: 1 1 100%;
+}
+
+/*@media (min-width: 600px) {
+
+  .b, .c, .d, .e, .f, .g {
+    flex: 1 1 25%;
+    min-height: 100px;
+    max-height: 200px;
+  }
+
+  .h {
+    min-height: 220px;
+    max-width: 15%;
+  }
+}*/
+
+/* TEST */
